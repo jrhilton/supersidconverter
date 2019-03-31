@@ -9,7 +9,9 @@ This command line program will create a new CSV file which will have the reading
 .Net 4.5+
 
 # Instructions for use:
-Copy the application executable into the folder that contains the CSV files that need to be processed and run. The updated CSV files will be saved down in a new directory called “Output”.
+Copy the application executable into the folder that contains the CSV files that need to be processed and run. The updated CSV files will be saved down in a new directory called “output” and will have "_clean" added to the file name of each file.
+
+If an error with the file is encountered it will be skipped.
 
 To uninstall just delete the executable file.
 
